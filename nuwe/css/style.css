@@ -1,0 +1,55 @@
+body{
+    background-image: url('../img/rocket.jpeg');
+}
+nav {
+    background-color: green;
+    top: 0;
+}
+#res {
+    margin-top:50px;
+}
+#card {
+    width: 400px;
+    height: 250px;
+    border: 1px solid grey;
+    margin: 20px 20px;
+    padding: 15px;
+    float: left;
+    border-radius: 15px;
+    position: relative;
+    background-color: white;
+    opacity: 0.9;
+}
+#card p:first-child{
+    text-transform: uppercase;
+}
+#tagUno {
+    border: 1px solid purple;
+    border-radius: 20px;
+    float: left;
+    padding: 10px;
+    color: purple;
+    margin: 5px;
+    text-transform: capitalize;
+}
+#tagDos {
+    border: 1px solid green;
+    border-radius: 20px;
+    float: left;
+    padding: 10px;
+    color: green;
+    margin: 5px;
+}
+button {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    background-color: rgb(39, 190, 39);
+    border-radius: 5px;
+    border: none;
+    padding: 5px 25px;
+}
+button a {
+    color: white;
+}
+

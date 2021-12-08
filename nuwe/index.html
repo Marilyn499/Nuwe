@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body onload="traerDatos()">
+
+    <nav>
+        <ul>
+            <li><a href="#" class="categoria" onclick="traerDatos();"><i class="fas fa-home"></i></a></li>
+            <li><a href="#" id="insurance" name="insurance" onclick="capturar('insurance');">Insurance</a></li>
+            <li><a href="#" id="investment" name="investment banking" onclick="capturar('investment');">Investment
+                    Banking</a></li>
+            <li><a href="#" id="human" name="human resources" onclick="capturar('human');">Human Resources</a></li>
+            <li><a href="#" id="construction" name="construction" onclick="capturar('construction');">Construction</a>
+            </li>
+            <li><a href="#" id="health" name="health, wellness and fitness" onclick="capturar('health');">Health,
+                    wellness and fitness</a></li>
+            <li><a href="#" id="airlines" name="airlines/aviation" onclick="capturar('airlines');">Airlines/Aviation</a>
+            </li>
+            <li><a href="#" id="law" name="law practice" onclick="capturar('law');">Law practice</a></li>
+            <li><a href="#" id="apparel" name="apparel & fashion" onclick="capturar('apparel');">Apparel & fashion</a>
+            </li>
+            <li><a href="#" id="medical" name="medical practice" onclick="capturar('medical');">Medical practice</a>
+            </li>
+            <li><a href="#" id="oil" name="oil & energy" onclick="capturar('oil');">Oil & energy</a></li>
+            <li><a href="#" id="higher" name="higher education" onclick="capturar('higher');">Higher education</a></li>
+            <li><a href="#" id="accounting" name="accounting" onclick="capturar('accounting');">Accounting</a></li>
+        </ul>
+    </nav>
+
+
+    <div id="res">
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+
+
+
+
+</html>
